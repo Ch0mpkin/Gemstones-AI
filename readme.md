@@ -1,6 +1,6 @@
 # Gemstone identification AI
 
-This project is an Imagenet/ Resnet18 based AI model that is designed to interface with a webcam to evaluate and classify raw gemstone or rock samples. It is meant to ease the difficulty that can be encountered when trying to identify a rock/gemstone sample yourself. The AI was trained on 24 classes of commonly found rock/gemstone specimens, with a dataset that was made and curated by hand (see labels.txt to view what each class is specifically, and see the train and val folders under the dataset to see examples of each of the classes).
+This project is an Imagenet/ Resnet18 based AI model that is designed to evaluate and classify raw gemstone or rock samples. It is meant to ease the difficulty that can be encountered when trying to identify a rock/gemstone sample yourself. The AI was trained on 33 classes of commonly found rock/gemstone specimens, with a dataset that was made and curated by hand (see labels.txt to view what each class is specifically, and see the train and val folders under the dataset to see examples of each of the classes).
 
 ## The Algorithm
 

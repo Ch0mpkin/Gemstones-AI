@@ -12,15 +12,16 @@ This project was designed off of the Nvidia Jetson Nano with Jetson-inference an
 To run the already trained GemstonesAI follow these steps:
 1. Download the GemstonesAI files off of the Google Drive page
 2. Unzip the files
-3. Open VScode and connect to your Nano
-4. Navigate to Jetson-inference/python/training/classification
-5. Copy the GemstonesAI files into BOTH the models folder and the data folder
-6. Take a picture of the rock sample you wish to classify (or download an image off the internet just to test the AI)
-7. Upload the picture into the classification folder
-8. Run this command in the terminal: imagenet.py --model=models/Gemstones/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/Gemstones/labels.txt {YOURIMAGE} {CLASSIFIEDIMAGENAME}
+3. Rename the unzipped folder to GemstonesAI
+4. Open VScode and connect to your Nano
+5. Navigate to Jetson-inference/python/training/classification
+6. Copy the GemstonesAI files into BOTH the models folder and the data folder
+7. Take a picture of the rock sample you wish to classify (or download an image off the internet just to test the AI)
+8. Upload the picture into the classification folder
+9. Run this command in the terminal: imagenet.py --model=models/GemstonesAI/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/GemstonesAI/labels.txt {YOURIMAGE} {CLASSIFIEDIMAGENAME}
         *Replace {YOURIMAGE} with the file name for the image you want to classify, make sure to include the file type, here's an example: Rose_quartz.png (Also remove the {} brackets when putting in your file name). Replace {CLASSIFIEDIMAGENAME} with the name you want your new classified image to be called, make sure the file type is the same too, for example: Rose_quartz_classified.png
-9. Run the command
-10. After a moment you should see your new classified file appear in the classifications folder
+10. Run the command
+11. After a moment you should see your new classified file appear in the classifications folder
 
 If you want to train the model yourself, follow these steps:
 1. Download the GemstoneAI dataset off the Google Drive file (second link)

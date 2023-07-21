@@ -34,5 +34,5 @@ If you want to train the model yourself, follow these steps:
 8. Type python3 onnx_export.py --model-dir=models/Gemstones into the console to save and export the model
 9. Follow the 9 steps above this except with your own files to use your model
 
-
-[View a video explanation here](video link)
+Link to youtube tutorial on how to classify an image using this AI:
+[https://youtu.be/aPZ2T3H3OOw]

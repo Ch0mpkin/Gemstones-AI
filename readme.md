@@ -17,8 +17,8 @@ To run the already trained GemstonesAI follow these steps:
 4. Copy the GemstonesAI files into BOTH the models folder and the data folder
 5. Take a picture of the rock sample you wish to classify (or download an image off the internet just to test the AI)
 6. Upload the picture into the classification folder
-7. Run this command in the terminal: imagenet.py --model=models/Gemstones/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/Gemstones/labels.txt <YOURIMAGE> <CLASSIFIEDIMAGENAME>
-        *Replace <YOURIMAGE> with the file name for the image you want to classify, make sure to include the file type, here's an example: Rose_quartz.png (Also remove the <> brackets when putting in your file name). Replace <CLASSIFIEDIMAGE> with the name you want your new classified image to be called, make sure the file type is the same too, for example: CLASSIFIEDEXAMPLE.png
+7. Run this command in the terminal: imagenet.py --model=models/Gemstones/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/Gemstones/labels.txt {YOURIMAGE} {CLASSIFIEDIMAGENAME}
+        *Replace {YOURIMAGE} with the file name for the image you want to classify, make sure to include the file type, here's an example: Rose_quartz.png (Also remove the {} brackets when putting in your file name). Replace {CLASSIFIEDIMAGENAME} with the name you want your new classified image to be called, make sure the file type is the same too, for example: CLASSIFIEDEXAMPLE.png
 8. Run the command
 9. After a moment you should see your new classified file appear in the classifications folder
 
